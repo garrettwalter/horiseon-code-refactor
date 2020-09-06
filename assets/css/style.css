@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-
+/* This makes the background of the site white */
 body {
     background-color: #d9dcd6;
 }
@@ -19,11 +19,11 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Makes the letters "seo" in the header white */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Displays links to the content of the site */
 .links {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Displays main image at the top of site */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +58,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Displays image in the "Search Engine Optimization" and "Social Media Marketing" content sections */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Displays image in the "Online Reputation Manegement" content section */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Displays content sections */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Displays benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,22 +85,22 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Displays "Lead Generation" section of the Benefits section  */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Displays "Brand Awareness" section of the Benefits section  */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Displays "Cost Management" section of the Benefits section  */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Displays text for the content of the Benefit section (next 3 blocks) */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,6 +116,7 @@ p {
     text-align: center;
 }
 
+/* Displays images for the content of the Benefit section (next 3 blocks) */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,7 +134,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Styles the text of the "search engine optimization" section  */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +143,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Styles the text of the "online reputation manegement" section  */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +152,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Styles the text of the "social media marketing" section  */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +161,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Displays images for the 3 main content sections of the site (next 3 blocks) */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +173,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* Styles the headers for the 3 main content sections (next 3 blocks) */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
